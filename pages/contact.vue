@@ -1,0 +1,25 @@
+<template>
+<div class="wrapper">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>お気軽にご連絡ください</p>
+    <form method="POST">
+      <label for="name">お名前</label>
+      <input type="text" name="name" id="name" required />
+      <label for="email">メールアドレス</label>
+      <input type="email" name="email" id="email" required />
+      <label for="textarea">ご用件</label>
+      <textarea name="message" rows="10" id="textarea" required></textarea>
+      <button type="submit">送信</button>
+    </form>
+  </div>
+</div>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped>
+
+</style>
